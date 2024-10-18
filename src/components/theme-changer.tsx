@@ -7,10 +7,10 @@ export default function ThemeChanger() {
   const { theme, setTheme } = useTheme();
 
   const changeTheme = () => {
-    if (theme === 'dark') {
-      setTheme('light');
-    } else {
+    if (theme === 'light') {
       setTheme('dark');
+    } else {
+      setTheme('light');
     }
   };
 
